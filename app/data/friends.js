@@ -67,7 +67,7 @@ var friends = [
     },
     {
         name: "April",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/1/11/Aubrey_Plaza_2012_Shankbone.JPG",
+        photo: "https://vignette.wikia.nocookie.net/parksandrecreation/images/e/ed/April-0.png/revision/latest/top-crop/width/360/height/360?cb=20180116070637",
         scores: [
             "5",
             "2",
