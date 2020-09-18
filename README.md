@@ -10,4 +10,4 @@ I created a Parks and Recreation themed friend finder application.
 - Hit submit to see who you match with.
 
 ## Try it Out!
-https://julianacodes.github.io/Friend-Finder/
+https://jth-friend-finder.herokuapp.com/
