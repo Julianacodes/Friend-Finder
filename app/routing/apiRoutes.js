@@ -20,7 +20,7 @@ module.exports = function(app) {
             photo:"",
             friendDifference: Infinity
         };
-        // takeing the result of the users survey POST and parseing it
+        // taking the result of the users survey POST and parseing it
         var userData = req.body;
       //  console.log(userData)
         var userScores = userData.scores;
