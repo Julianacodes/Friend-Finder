@@ -1,0 +1,24 @@
+{
+  "name": "Friend-Finder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Julianacodes/Friend-Finder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Julianacodes/Friend-Finder/issues"
+  },
+  "homepage": "https://github.com/Julianacodes/Friend-Finder#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodejs": "0.0.0"
+  }
+}
