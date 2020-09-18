@@ -22,6 +22,7 @@ module.exports = function(app) {
         };
         // takeing the result of the users survey POST and parseing it
         var userData = req.body;
+      //  console.log(userData)
         var userScores = userData.scores;
 
         // This will calculate the difference between the scores
@@ -29,18 +30,19 @@ module.exports = function(app) {
 
         // Loop through all the possibilites
         for (var i=0; i < friends.length; i++) {
-            var currentFriend = friends [i];
+            var currentFriend = friends[i];
             totalDifference = 0;
 
-            console.log(currentFriend.name);
+         //   console.log(currentFriend.name);
 
+           // console.log(currentFriend.scores)
             // loop through all the scores for each of the friends
-            for (var j = 0; j <currentFriend.scores.legth; j++){
+            for (var j = 0; j <currentFriend.scores.length; j++){
                 var currentFriendScore = currentFriend.scores[j];
-                var currentUserScore = userScores [j];
+                var currentUserScore = userScores[j];
 
                 // Calculate difference between the two scores and make them into a total amount
-                totalDifference+=Math.abs(paseInt(currentUserScore) - parseInt(currentFriendScore));
+                totalDifference+=Math.abs(parseInt(currentUserScore) - parseInt(currentFriendScore));
             }
 
             // 
@@ -56,7 +58,8 @@ module.exports = function(app) {
         // Save user data to the database
         friends.push(userData);
 
+        console.log(bestMatch)
         // return a jason with users bestMatch
-        res.jason(bestMatch);
+        res.json(bestMatch);
     });
 };

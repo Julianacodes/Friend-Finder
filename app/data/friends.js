@@ -36,7 +36,7 @@ var friends = [
     {
         name: "Tom",
         photo: "https://upload.wikimedia.org/wikipedia/en/1/1f/Tom_Haverford.jpg",
-        score: [
+        scores: [
             "1",
             "2",
             "1",
@@ -52,7 +52,7 @@ var friends = [
     {
         name: "Ben",
         photo: "https://upload.wikimedia.org/wikipedia/en/0/02/Ben_Wyatt_Parks_%26_Rec.jpg",
-        score: [
+        scores: [
             "1",
             "2",
             "1",
@@ -68,7 +68,7 @@ var friends = [
     {
         name: "April",
         photo: "https://upload.wikimedia.org/wikipedia/commons/1/11/Aubrey_Plaza_2012_Shankbone.JPG",
-        score: [
+        scores: [
             "5",
             "2",
             "5",
@@ -84,7 +84,7 @@ var friends = [
     {
         name: "Ann",
         photo: "https://upload.wikimedia.org/wikipedia/en/3/33/Ann_Perkins.jpg",
-        score: [
+        scores: [
             "3",
             "2",
             "1",
